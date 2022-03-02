@@ -25,6 +25,17 @@ public class DataPermissionRule {
     //权限类型 DEPT/AREA/PERSON 等
     private String type;
 
+    //是否需要输入value
+    private Boolean hasValue;
+
+    public Boolean getHasValue() {
+        return hasValue;
+    }
+
+    public void setHasValue(Boolean hasValue) {
+        this.hasValue = hasValue;
+    }
+
     public String getName() {
         return name;
     }
